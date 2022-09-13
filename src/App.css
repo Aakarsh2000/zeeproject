@@ -39,6 +39,30 @@
   color: #61dafb;
 }
 
+.big-crd-hdln {
+    margin: 10px 0;
+}
+
+.big-crd-main {
+    border-top: 1px solid #ecebeb;
+    padding: 15px 0 5px;
+    margin-bottom: 1px;
+    clear: both;
+    text-align: left;
+}
+
+.big-crd-reltd-itm {
+    margin: 0 0 10px;
+    width: 100%;
+    display: inline-block;
+}
+
+.big-crd-rltd-txt {
+    font-weight: bold;
+    margin: 10px 0;
+    color: #1866DB;
+}
+
 .cb-bg-white{
     background-color: #fff;
 }
@@ -62,8 +86,15 @@
     width: 47%;
 }
 
+.cb-col-67{
+    width:67%;
+}
 .cb-col-100 {
     width: 100%;
+}
+
+.cb-hdln-hght {
+    min-height: 82px;
 }
 
 .cb-font-12 {
@@ -80,6 +111,17 @@
     padding: 15px 15px 0;
     color: #009270;
 }
+
+.cb-hm-mid {
+    border-left: 5px solid #e3e6e3;
+    border-right: 5px solid #e3e6e3;
+    padding: 0 15px;
+}
+
+.cb-hm-mid .big-crd-main:first-child, .cb-sr-left .big-crd-main {
+    border-top: 0;
+}
+
 
 .cb-hm-mr-lnk {
     padding: 0 0 10px;
@@ -106,6 +148,15 @@
     padding-bottom: 5px;
 }
 
+.cb-nws-intr {
+    color: #666;
+    padding-bottom: 5px;
+}
+
+.cb-nws-intr, .sml-crd-main {
+    clear: both;
+}
+
 .cb-nws-time {
     color: #666;
 }
@@ -113,6 +164,14 @@
 .cb-nws-time {
     font-size: 12px;
     padding-bottom: 5px;
+}
+
+.cb-pos-rel {
+    position: relative;
+}
+
+.cb-pretag {
+    color: #B34A57;
 }
 
 .cb-arcv-yr, .cb-brdr-thin-btm, .cb-lst-itm, .cb-scrd-itms, .cb-srs-lst-itm, .cb-tms-itm .cb-mtch-lst {
@@ -123,6 +182,12 @@
     color: #1866db;
 }
 
+.crd-cntxt {
+    font-size: 12px;
+    color: #666;
+    padding-bottom: 10px;
+}
+
 h2.heading {
     display: block;
     margin-block-start: 0.83em;
@@ -130,6 +195,53 @@ h2.heading {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+}
+
+h2.big_heading{
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+h3.small_heading{
+    display: block;
+    font-size: 18px;
+    line-height: 24px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 10px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.sml-crd-main {
+    border-top: 1px solid #ecebeb;
+    margin: 0;
+    display: inline-block;
+}
+
+.sml-crd-hdln {
+    margin: 0 0 0 10px;
+}
+
+.sml-crd-main {
+    padding: 15px 0 5px;
+    width: 100%;
+    text-align: left;
+}
+
+.sml-crd-subtxt {
+    color: #666;
+    font-size: 12px;
+}
+
+.sml-crd-subtxt {
+    margin: 0 10px 10px;
 }
 
 .text_left{
