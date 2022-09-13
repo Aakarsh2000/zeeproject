@@ -1,11 +1,8 @@
 import React from 'react'
-import {Link} from 'react-router-dom';
+
 export default function Navbar() {
   return (
     <>
-        {/* <Routes>
-        <Route path ='/livescores' element={<Livescores/>}></Route>
-    </Routes> */}
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <a className="navbar-brand" href="#">Navbar</a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,7 +13,7 @@ export default function Navbar() {
     <ul className="navbar-nav mr-auto">
     
       <li className="nav-item active">
-        <a className="nav-link" href="/livescore">Live scores</a>
+        <a className="nav-link" href="#">Live scores</a>
       </li>
       
       <li className="nav-item">
