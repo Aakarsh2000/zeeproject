@@ -150,6 +150,12 @@
     text-align: left;
 }
 
+.cb-ico-premium {
+    width: 35px !important;
+    height: 50px !important;
+    background-position: -527px -5px !important;
+}
+
 .cb-lst-itm, .cb-bg-white {
     background: #fff;
 }
@@ -161,6 +167,10 @@
 .cb-lv-scr-mtch-hdr {
     line-height: 21px;
     font-size: 16px;
+}
+
+.cb-mid-wrp {
+    padding: 10px 0;
 }
 
 .cb-mdl-hdr {
@@ -207,6 +217,47 @@
 .cb-nws-time {
     font-size: 12px;
     padding-bottom: 5px;
+}
+
+.cb-plus-flex-mdm-crd {
+    top: 2px!important;
+    right: -2px!important;
+}
+
+.cb-plus-free-tag {
+    padding: 10px 5px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    box-sizing: border-box;
+    font-weight: 700;
+    margin-top: 1px;
+    border-left: 1px solid #fff;
+}
+
+.cb-plus-ico {
+    background: url(images/cb_plus_sprite_v_1_1_5.png) no-repeat scroll;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.cb-plus-icon-flex-box {
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    right: 5px;
+    top: 35px;
+    transform: scale(.7);
 }
 
 .cb-pos-rel {
