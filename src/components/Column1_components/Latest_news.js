@@ -2,8 +2,8 @@ import React from 'react'
 
 function Latest_news() {
   return (
-    <div className='latest_news'>
-        <h2 class="cb-hm-lft-hdr cb-lv-scr-mtch-hdr latest_news" >LATEST NEWS</h2>
+    <div className='text_left'>
+        <h2 class="cb-hm-lft-hdr cb-lv-scr-mtch-hdr heading" >LATEST NEWS</h2>
         <div class="cb-hm-lft">
             <div class="cb-col-100 cb-lst-itm cb-lst-itm-sm">
                 <a class="cb-nws-hdln-ancr text-hvr-underline" title="Natasha McLean, Sheneta Grimmond picked in WI's provisional squad for NZ ODIs">Natasha McLean, Sheneta Grimmond picked in WI's provisional squad for NZ ODIs</a>
