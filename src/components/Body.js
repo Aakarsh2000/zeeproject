@@ -14,9 +14,7 @@ function Body() {
     <div className='Body'>
         <Header/>
         <Header2/>
-        {/* <Navbar/> */}
-        {/* <Navbar2/> */}
-        {/* <Featured_matches/> */}
+        <Featured_matches/>
         <Column1/>
         <Column2/>
         <Column3/>
