@@ -7,11 +7,13 @@ import Navbar2 from './Navbar2'
 import '../App.css'
 import Featured_matches from './Featured_matches'
 import Header from './Header'
+import Header2 from './Header2'
 
 function Body() {
   return (
     <div className='Body'>
         <Header/>
+        <Header2/>
         {/* <Navbar/> */}
         {/* <Navbar2/> */}
         {/* <Featured_matches/> */}
