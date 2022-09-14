@@ -1,3 +1,49 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+
 .App {
   text-align: center;
   max-width: 980px;
@@ -67,6 +113,32 @@
     background-color: #fff;
 }
 
+.cb-caret-down {
+    border-top: 4px solid;
+}
+
+.cb-caret-up, .cb-caret-down {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 4px;
+    margin-bottom: 1px;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.cb-carousal-item-large {
+    padding: 0 11px;
+}
+
+.cb-cat-head-text-wrap {
+    float: left;
+}
+
+.cb-cat-head-wrap {
+    padding: 0 12px 0 11px;
+}
+
 .cb-cen {
     position: absolute;
     top: 50%;
@@ -118,6 +190,29 @@
     font-size: 12px;
 }
 
+.cb-nws-sub-txt, .cb-nws-sub-txt, .cb-font-12 {
+    font-size: 12px;
+}
+
+.cb-hmscg-bat-txt {
+    color: #222;
+}
+
+.cb-hmscg-bwl-txt {
+    color: #666;
+}
+
+.cb-hmscg-bwl-txt, .cb-hmscg-bat-txt {
+    font-weight: bold;
+    padding-bottom: 4px;
+    height: 18px;
+}
+
+.cb-hmscg-tm-nm {
+    display: inline-block;
+    width: 60px;
+}
+
 .cb-hm-lft {
     margin-bottom: 5px;
     padding: 0 15px;
@@ -139,6 +234,11 @@
     border-top: 0;
 }
 
+.cb-hm-mnu-itm {
+    padding: 16px 6px 11px;
+    color: #fff;
+    display: inline-block;
+}
 
 .cb-hm-mr-lnk {
     padding: 0 0 10px;
@@ -150,10 +250,25 @@
     text-align: left;
 }
 
+.cb-hm-text {
+    padding: 10px 18px 10px 20px;
+}
+
 .cb-ico-premium {
     width: 35px !important;
     height: 50px !important;
     background-position: -527px -5px !important;
+}
+
+.cb-login{
+    right: 0px;
+    display: none;
+}
+
+.cb-logo{
+    bottom: 4px;
+    position: relative;
+    vertical-align:middle;
 }
 
 .cb-lst-itm, .cb-bg-white {
@@ -169,6 +284,13 @@
     font-size: 16px;
 }
 
+.cb-mtch-blk {
+    border-right: 1px solid #ecebeb;
+    line-height: 1.4;
+    margin: 15px 0;
+    padding: 0 20px;
+}
+
 .cb-mid-wrp {
     padding: 10px 0;
 }
@@ -176,6 +298,10 @@
 .cb-mdl-hdr {
     text-transform: uppercase;
     color: #009270;
+}
+
+.cb-more{
+    right:0px;
 }
 
 .cb-more-btn {
@@ -191,6 +317,12 @@
 .cb-more-btn-cntnr {
     text-align: center;
     padding: 10px 10px 20px;
+}
+
+.cb-nav {
+    position: relative;
+    height: 48px;
+    background: #009270;
 }
 
 .cb-nws-hdln-ancr {
@@ -217,6 +349,12 @@
 .cb-nws-time {
     font-size: 12px;
     padding-bottom: 5px;
+}
+
+.cb-ovr-flo {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .cb-plus-flex-mdm-crd {
@@ -260,6 +398,13 @@
     transform: scale(.7);
 }
 
+.cb-plus-menu-button {
+    padding: 8px 14px;
+    background: #fff;
+    border-radius: 18px;
+    border: 0;
+}
+
 .cb-pos-rel {
     position: relative;
 }
@@ -272,12 +417,84 @@
     border-bottom: 1px solid #ecebeb;
 }
 
+.cb-text-badlight, .cb-text-badweather, .cb-text-dinner, .cb-text-drink, .cb-text-innings, .cb-text-inningsbreak, .cb-text-inprogress, .cb-text-live, .cb-text-lunch, .cb-text-rain, .cb-text-stump, .cb-text-stumps, .cb-text-tea, .cb-text-unforeseen, .cb-text-wetoutfield {
+    color: #d0021b;
+}
+
+.cb-score{
+    display:inline-block;
+    width:140px
+}
+
+.cb-subnav {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.cb-subnav .cb-sub-navigation {
+    display: none;
+    position: absolute;
+}
+
+.cb-sub-navigation {
+    margin: 11px 0 0 -8px;
+    background: #f5f5f5;
+    min-width: 160px;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+}
+
+.cb-subnav-item {
+    display: block;
+    color: #222;
+    padding: 6px 15px;
+    white-space: nowrap;
+}
+
 .cb-suggested-vid-img {
     width: 100%;
 }
 
 .cb-text-link {
     color: #1866db;
+}
+
+.cb-user-itm {
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+
+.cb-vid-slider-arr {
+    position: absolute;
+    z-index: 5;
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cb-vid-slider-arrs {
+    position: absolute;
+    top: 52px;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.cb-vid-slider-arr-next {
+    right: 0;
+}
+
+.cb-vid-slider-arr-prev {
+    display: none;
+    left: 0;
+}
+
+.cb-vid-sml-card-api {
+    margin-top: 10px;
+    height: auto;
+    padding: 0 12px 0 11px;
 }
 
 .cb-vid-sm-ply-api {
@@ -287,19 +504,67 @@
     margin-left: 3px;
 }
 
+
+
 .crd-cntxt {
     font-size: 12px;
     color: #666;
     padding-bottom: 10px;
 }
 
+.home_matches .cb-vid-slider-arrs {
+    opacity: 0.8;
+    top: 22px;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.videos-carousal-item {
+    min-width: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+.videos-carousal-wrapper {
+    float: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+}
+
+.videos-list-carousal {
+    overflow: hidden;
+    position: relative;
+    height: 220px;
+}
+
 a, a:hover, a:active, a:focus {
     outline: medium none;
 }
 
-a {
+a.none {
     text-decoration: none;
-    color: #222;
+    color: white;
+}
+
+a.none_gray {
+    text-decoration: none;
+    color: #666;
+}
+
+a.search{
+    padding-left: 30px;
+}
+
+a.login{
+    padding-left: 10px;
 }
 
 a.suggested-video-gtm{
@@ -378,6 +643,13 @@ h4.heading {
 .text_left{
     text-align: left;
 }
+
+.videos-list-carousal {
+    overflow: hidden;
+    position: relative;
+    height: 90px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
