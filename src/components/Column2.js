@@ -23,7 +23,7 @@ function Column2() {
                     Ravindra Jadeja officially ruled out following his knee surgery
                 </div>
                 <div class="big-crd-reltd-itm">
-                    <a class="big-crd-rltd-txt" title="Namibia name squad with 3 World Cup debutants">
+                    <a class="none_blue big-crd-rltd-txt" title="Namibia name squad with 3 World Cup debutants">
                         Namibia name squad with 3 World Cup debutants</a>
                 </div>
             </div>
@@ -39,12 +39,12 @@ function Column2() {
                     Only three Tests played in England have been decided in fewer deliveries than the third Test at the Oval
                 </div>
                 <div class="big-crd-reltd-itm">
-                    <a class="big-crd-rltd-txt" title="Thankful to have group of lads who understood the bigger picture - Stokes">
+                    <a class="none_blue big-crd-rltd-txt" title="Thankful to have group of lads who understood the bigger picture - Stokes">
                         Thankful to have group of lads who understood the bigger picture - Stokes
                     </a>
                 </div>
                 <div class="big-crd-reltd-itm">
-                    <a class="big-crd-rltd-txt" title="All done in 5.3 overs on fifth morning">
+                    <a class="none_blue big-crd-rltd-txt" title="All done in 5.3 overs on fifth morning">
                         <span class="cb-pretag">Report / </span>All done in 5.3 overs on fifth morning
                     </a>
                 </div>

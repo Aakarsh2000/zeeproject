@@ -34,7 +34,7 @@ function Latest_photos() {
                 </a>
             </div>
 
-            <a class="cb-font-12 cb-text-link" title="More Photos"><i>More Photos..</i></a>
+            <a class="none_blue cb-font-12 cb-text-link" title="More Photos"><i>More Photos..</i></a>
         </div>
     </div>
   )

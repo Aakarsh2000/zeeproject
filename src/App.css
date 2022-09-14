@@ -608,10 +608,18 @@ a.none {
     text-decoration: none;
     color: white;
 }
-
+a.none_black{
+    text-decoration: none;
+    color:#222;
+}
 a.none_gray {
     text-decoration: none;
     color: #666;
+}
+
+a.none_blue{
+    text-decoration: none;
+    color: #1866db;
 }
 
 a.search{
